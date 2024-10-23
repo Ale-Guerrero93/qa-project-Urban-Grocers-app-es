@@ -26,4 +26,4 @@ Bienvenido a Urban Grocers, tu tienda en línea para comprar productos frescos y
 ## URL dlu servidor
 
 
- https://cnt-4428c976-2afd-439d-8f28-0794e26865ad.containerhub.tripleten-services.c
+https://cnt-340535c4-c856-48ce-9717-44b140fd679b.containerhub.tripleten-services.com
