@@ -3,11 +3,6 @@ import requests
 import data
 import json
 
-
-def get_docs():
-  return requests.get(configuration.URL_SERVICE + configuration.DOC_PATH)
-
-
 def get_logs():
   return requests.get(configuration.URL_SERVICE + configuration.LOG_MAIN_PATH)
 
@@ -36,5 +31,8 @@ def post_new_kit(body, auth_token):
 
   return requests.post(configuration.URL_SERVICE + configuration.KITS_PATH,
                        headers=headers,
+                       data=payload
+                       )
+
                        data=payload
                        )
